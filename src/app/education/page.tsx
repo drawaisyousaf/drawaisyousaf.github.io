@@ -51,27 +51,32 @@ export default function Education() {
       {/*  <div className="bg-white rounded-lg shadow-md p-8 mb-8 space-y-8">   */}
         <div className="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500 p-8 mb-8 rounded-lg shadow-md">
         
-        
           <p className="text-xl font-bold tracking-wide text-blue-700 mb-2">Education</p>
 
           <div className="space-y-4">
             {education.map((education) => (
               <div key={education.year} className="bg-white rounded-lg border border-blue-100 p-5 shadow-sm">
-                <div className="flex items-start gap-3">
 
-                    <span className="min-w-[140px] font-semibold">
+                <div className="flex items-start gap-3">
+                  <span className="w-20 sm:w-28 md:w-36 shrink-0 font-semibold">
                     {education.year}
-                    </span> 
-                  <div>
-                    <h2 className="text-lg font-semibold text-gray-900">{education.degree}</h2>
-                    <p className="mt-2 text-gray-700">
+                  </span>
+
+                  <div className="flex-1 min-w-0">
+                    <h2 className="text-base md:text-lg font-semibold text-gray-900 break-words">
+                      {education.degree}
+                    </h2>
+
+                    <p className="mt-2 text-sm md:text-base text-gray-700 break-words">
                       {education.university}
                     </p>
                   </div>
                 </div>
+
               </div>
             ))}
           </div>
+
         </div>
 
       <div className="bg-gradient-to-r from-green-50 to-green-100 border-l-4 border-green-500 p-6 rounded-lg shadow-md">
@@ -80,14 +85,19 @@ export default function Education() {
         <div className="space-y-4">
             {theses.map((theses) => (
               <div key={theses.deg} className="bg-white rounded-lg border border-blue-100 p-5 shadow-sm">
-                <div className="flex items-end text-center gap-3">
-                    <span className="min-w-[140px] font-semibold">
+              
+                <div className="flex items-center gap-3">
+                  <span className="w-20 sm:w-28 md:w-36 shrink-0 font-semibold text-center">
                     {theses.deg}
-                    </span> 
+                  </span>
+
                   <div>
-                    <h2 className="text-lg text-gray-900">{theses.thesis}</h2>
+                    <h2 className="text-lg text-gray-900 break-words">
+                      {theses.thesis}
+                    </h2>
                   </div>
                 </div>
+              
               </div>
             ))}
           </div>

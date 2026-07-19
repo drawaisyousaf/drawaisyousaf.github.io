@@ -43,18 +43,21 @@ export default function Experience() {
           <div className="space-y-4">
             {experience.map((experience) => (
               <div key={experience.year} className="bg-white rounded-lg border border-blue-100 p-5 shadow-sm">
-                <div className="flex items-start gap-3">
                 
-                    <span className="min-w-[140px] font-semibold">
-                    {experience.year}
+                <div className="flex items-start gap-3">
+                    <span className="w-20 sm:w-28 md:w-36 shrink-0 font-semibold">
+                      {experience.year}
                     </span> 
-                  <div>
-                    <h2 className="text-lg font-semibold text-gray-900">{experience.employer}</h2>
-                    <p className="mt-2 text-gray-700">
-                      {experience.title}
-                    </p>
-                  </div>
+                   <div className="flex-1 min-w-0">
+                      <h2 className="text-base md:text-lg font-semibold text-gray-900 break-words">            
+                        {experience.employer}
+                      </h2>
+                      <p className="mt-2 text-sm md:text-base text-gray-700 break-words">
+                        {experience.title}
+                      </p>
+                    </div>
                 </div>
+
               </div>
             ))}
           </div>
