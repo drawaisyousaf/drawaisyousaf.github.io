@@ -13,7 +13,7 @@ Official website for Dr. Awais Yousaf.
 1. Clone the repository:
 ```bash
 git clone https://github.com/YOUR-USERNAME/awais.git
-cd AWAIS
+cd awais
 ```
 
 2. Install dependencies:
@@ -42,7 +42,7 @@ This will generate a static export in the `out` folder.
 
 ### Initial Setup
 
-1. **Create a GitHub repository** named `awais` (or any name you prefer)
+1. **Create a GitHub repository** named `` (or any name you prefer)
 
 2. **Push your code to GitHub:**
 ```bash
@@ -50,7 +50,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/awais.git
+git remote add origin https://github.com/YOUR-USERNAME/.git
 git push -u origin main
 ```
 
@@ -61,7 +61,7 @@ git push -u origin main
    - Set **Source** to "GitHub Actions"
 
 4. **Update the basePath in `next.config.js`:**
-   - If your repo is named `AWAIS`, the basePath is already set correctly
+   - If your repo is named `awais`, the basePath is already set correctly
    - If you use a different name, update both `basePath` and `assetPrefix` in `next.config.js`
 
 5. **Push to trigger deployment:**
