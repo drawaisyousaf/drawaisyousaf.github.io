@@ -92,7 +92,7 @@ export default function Education() {
                   </span>
 
                   <div>
-                    <h2 className="text-lg text-gray-900 break-words">
+                    <h2 className="text-base text-gray-900 break-words">
                       {theses.thesis}
                     </h2>
                   </div>
