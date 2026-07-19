@@ -12,7 +12,7 @@ Official website for Dr. Awais Yousaf.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR-USERNAME/AWAIS.git
+git clone https://github.com/YOUR-USERNAME/awais.git
 cd AWAIS
 ```
 
@@ -42,7 +42,7 @@ This will generate a static export in the `out` folder.
 
 ### Initial Setup
 
-1. **Create a GitHub repository** named `AWAIS` (or any name you prefer)
+1. **Create a GitHub repository** named `awais` (or any name you prefer)
 
 2. **Push your code to GitHub:**
 ```bash
@@ -50,7 +50,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/AWAIS.git
+git remote add origin https://github.com/YOUR-USERNAME/awais.git
 git push -u origin main
 ```
 
@@ -70,7 +70,7 @@ git push
 ```
 
 The GitHub Action will automatically build and deploy your site. It will be available at:
-`https://YOUR-USERNAME.github.io/AWAIS/`
+`https://YOUR-USERNAME.github.io/awais/`
 
 ### Updating Content
 
