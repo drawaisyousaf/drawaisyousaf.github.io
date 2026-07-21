@@ -12,21 +12,21 @@ export default function More() {
             <h3 className="text-lg font-semibold text-primary-900">MIT Enterprise Forum Pakistan – Startup School 2017 </h3>
             <h2 className="text-lg font-semibold text-primary-900 italic">Participant</h2>
             <p className="text-gray-700">Clinched first position in five weeks startup school held at Information Technology University (ITU), Pakistan.</p>
-            <p className="text-gray-700 italic">26th October 2017 to 29th November 2017</p>
+            <p className="text-gray-700">26th October 2017 to 29th November 2017</p>
           </div>
 
           <div className="border-b pb-4">
             <h3 className="text-lg font-semibold text-primary-900">Centro Algoritmi</h3>
             <h2 className="text-lg font-semibold text-primary-900 italic">Founder (Venture Discontinued)</h2>
             <p className="text-gray-700">Center for Computer Programming Education and Training</p>
-            <p className="text-gray-700 italic">1st September 2013 to 31st December 2016</p>
+            <p className="text-gray-700">1st September 2013 to 31st December 2016</p>
           </div>
 
           <div className="border-b pb-4">
             <h3 className="text-lg font-semibold text-primary-900">Savings, Pakistan</h3>
             <h2 className="text-lg font-semibold text-primary-900 italic">Founder (Venture Discontinued)</h2>
             <p className="text-gray-700">LED Lighting and Renewable Energy Solutions Provider</p>
-            <p className="text-gray-700 italic">29th January 2012 to 30th June 2013</p>
+            <p className="text-gray-700">29th January 2012 to 30th June 2013</p>
           </div>
         </div>
       </div>
