@@ -111,6 +111,24 @@ export default function Home() {
               <span className="font-bold text-primary-700 min-w-[150px]">July 16, 2026</span>
               <span>
                 <a
+                  href="https://thedigitalship.com/news/maritime-satellite-communications/35-executives-and-seafarers-trained-as-singapore-builds-maritime-cybersecurity-testbed-for-shipowners/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-primary-700 hover:underline"
+                >
+                  MariOT
+                </a>
+                {" – "}
+                <span className="text-gray-700">
+                  35 executives and seafarers trained as Singapore builds maritime cybersecurity testbed for shipowners
+                </span>
+              </span>
+            </li>
+            
+            <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
+              <span className="font-bold text-primary-700 min-w-[150px]">July 16, 2026</span>
+              <span>
+                <a
                   href="https://www.linkedin.com/pulse/charting-safer-seas-how-singapore-building-worlds-first-industry-grade-51dnc"
                   target="_blank"
                   rel="noopener noreferrer"
