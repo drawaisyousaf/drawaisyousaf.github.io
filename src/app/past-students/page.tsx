@@ -1,6 +1,13 @@
 export default function PastStudents() {
   const students = [
     {
+      thesis: 'Attacks on Shipboard Alarm Management Subsystems',
+      name: 'Chua Lung Chin',
+      degree: 'Master of Science in Security by Design (MSSD)',
+      university: 'Singapore University of Technology and Design (SUTD)',
+      year: '2026',
+    },  
+    {
       thesis: 'Asset Inventory Tool for IACS UR Compliance Checking Onboard Vessels',
       name: 'Ding Jie Wong',
       degree: 'Master of Science in Security by Design (MSSD)',
