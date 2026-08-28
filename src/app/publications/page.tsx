@@ -64,7 +64,17 @@ const Journal_Articles = [
   },    
 ];
 
-const Conference_Papers = [
+const Conference_Papers = [  
+  {
+    authors: 'C. T. Wong, A. Yousaf, J. Zhou and M. V. W. Goh,',
+    title: '“Threat Modeling for Maritime Shipboard Systems,”',
+    conf_info: 'Design of Cyber-Secure Critical Infrastructure (DCS-CI 2026), pp. 22-45, 2026.', 
+  },  
+  {
+    authors: 'S. K. Sharma, A. Yousaf, J. Zhou and M. V. W. Goh,', 
+    title: '“Likelihood Estimation of Malicious Event Sequences in Maritime Cybersecurity,”',
+    conf_info: 'Design of Cyber-Secure Critical Infrastructure (DCS-CI 2026), pp. 146-165, 2026.',
+  },  
   {
     authors: 'A. Yousaf, L. L. Y. Kalvin, M. Li and J. Zhou,',
     title: '“Spying by SPi, I got the Birds-Eye,”',
