@@ -23,6 +23,10 @@ const reviewed_tech_reports = [
 
 const talks = [
   {
+      talk_title: 'MASS Code and Maritime Cybersecurity',
+      talk_info: 'Speaker in Panel 4 - Maritime Autonomous Surface Ships (MASS): Cybersecurity Challenges, CIL Workshop on Strengthening Maritime Cybersecurity in Southeast Asia, Singapore, 2026.',
+  },    
+  {
     talk_title: 'Introduction of iTrust and MariOT Testbed', 
     talk_info: 'Co-presented with a colleague at Estonian Maritime Academy of Tallinn University of Technology, Estonia, 2025.',
   },
