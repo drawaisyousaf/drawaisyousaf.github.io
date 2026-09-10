@@ -109,7 +109,7 @@ export default function Home() {
 
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-primary-700 min-w-[170px]">September 9, 2026</span>
-              <span className="text-gray-700">I spoke in panel-4 at CIL Workshop on Strengthening Maritime Cybersecurity in Southeast Asia, Singapore, 2026.</span>
+              <span className="text-gray-700">I spoke in panel-4 at NUS-CIL Workshop on Strengthening Maritime Cybersecurity in Southeast Asia, Singapore, 2026.</span>
             </li>
 
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
