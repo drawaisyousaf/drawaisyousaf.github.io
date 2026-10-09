@@ -109,9 +109,20 @@ export default function Home() {
 
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-primary-700 min-w-[170px]">September 9, 2026</span>
-              <span className="text-gray-700">I spoke in panel-4 at NUS-CIL Workshop on Strengthening Maritime Cybersecurity in Southeast Asia, Singapore, 2026.</span>
+              <span className="text-gray-700">
+                I spoke in panel-4 at{" "}
+                <a
+                  href="https://cil.nus.edu.sg/event/strengthening-maritime-cybersecurity-in-southeast-asia-law-industry-and-regional-cooperation/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-700 font-semibold hover:underline"
+                >
+                NUS-CIL Workshop
+                </a>{" "}
+                on Strengthening Maritime Cybersecurity in Southeast Asia, Singapore, 2026.
+              </span>
             </li>
-
+            
             <li className="flex flex-col sm:flex-row sm:items-center border-b border-gray-100 pb-2 last:border-0">
               <span className="font-bold text-primary-700 min-w-[170px]">August 28, 2026</span>
               <span className="text-gray-700">Two student papers are published in the conference proceedings of DCS-CI 2026.</span>
