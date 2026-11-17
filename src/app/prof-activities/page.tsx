@@ -20,7 +20,7 @@ const reviewed_conf = [
 ];
 
 const reviewed_tech_reports = [
-    "Liu Ming et al., “Mitigation Technology and Environmental Impact from Ammonia Bunkering Release,” Maritime Energy and Sustainable Development (MESD) Centre of Excellence (CoE) Nanyang Technological University (NTU), Institute of High Performance Computing (IHPC) A*STAR, Tropical Marine Science Institute (TMSI) National University of Singapore (NUS), Singapore, 2026.",
+    "Liu Ming et al., “Mitigation Technologies and Environmental Impacts of Ammonia Bunkering Releases,” Maritime Energy & Sustainable Development (MESD) Centre of Excellence (CoE) Nanyang Technological University (NTU), Institute of High Performance Computing (IHPC) A*STAR, Tropical Marine Science Institute (TMSI) National University of Singapore (NUS), Singapore, 2026.",
 ];
 
 const talks = [
