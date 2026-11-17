@@ -1,4 +1,5 @@
 const reviewed_journals = [
+    "International Journal of Critical Infrastructure Protection – Elsevier", 
     "Transactions on Privacy and Security – ACM",
     "Transactions on Reliability – IEEE",
     "Signal Processing Letters – IEEE",
@@ -7,6 +8,7 @@ const reviewed_journals = [
 ];
 
 const reviewed_conf = [
+    "2027 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2027)",
     "29th Information Security Conference (ISC 2026)",
     "4th IEEE LCN Special Track on Maritime Communication and Security (MarCaS 2026)",
     "2nd International Conference on the Design of Cyber-Secure Water Plants (DCS-Water 2025)",
